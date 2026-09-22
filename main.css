@@ -1,0 +1,20 @@
+body {
+  background-color: #0000ff;
+
+  font-size: 50px;
+
+}
+h1{
+  color: aliceblue;
+  font-family: sans-serif;
+}
+a{
+color: #ff0000;
+font-size: 100px;
+}
+.wrapper h1{
+  font-size: 10px;
+}
+.entries{
+  text-align: right;
+}
