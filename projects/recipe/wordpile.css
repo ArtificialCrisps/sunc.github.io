@@ -1,3 +1,10 @@
+h1{
+    padding-top: 350px;
+    padding-bottom: 100px;
+}
+body{
+    line-height: 50px;
+}
 .main{
     text-align: center;
 }
