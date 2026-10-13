@@ -1,0 +1,154 @@
+body{
+    font-size: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.circle_a{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    z-index: 1;
+    pointer-events: none;
+}
+.vid_a {
+    position: relative;
+    width: 290px;
+    top: 100px;
+    left: 70px;
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 5s;
+}
+.vid_a:hover{
+    opacity: 0.5;
+}
+.yellow{
+    position:absolute;
+    z-index: 2;
+    top: 80px;
+    left:70px;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.circle_b{
+    position: absolute;
+    top: 800px;
+    left: 850px;
+    z-index: 1;
+    pointer-events: none;
+}
+.vid_b video{
+    position: relative;
+    width: 290px;
+    height: auto;
+    top: 513px;
+    left: 900px;
+    opacity: 0;
+    transition: opacity 5s;
+}
+.vid_b video:hover{
+    opacity: 1;
+}
+.orange{
+    position:absolute;
+    z-index: 2;
+    top: 800px;
+    left: 850px;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.circle_c{
+    position: absolute;
+    top: 1620px;
+    left: 500px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.vid_c video{
+    position: relative;
+    width: 280px;
+    height: auto;
+    top: 800px;
+    left: 570px;
+    opacity: 0;
+    transition: opacity 5s;
+}
+.vid_c video:hover{
+    opacity: 1;
+}
+.green{
+    position:absolute;
+    z-index: 2;
+    top: 1600px;
+    left: 500px;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.circle_d{
+    position: absolute;
+    top: 2500px;
+    left: 200px;
+    z-index: 1;
+    pointer-events: none;
+}
+.vid_d video{
+    position: relative;
+    width: 280px;
+    height: auto;
+    top: 1200px;
+    left: 240px;
+    opacity: 0;
+    transition: opacity 5s;
+}
+.vid_d video:hover{
+    opacity: 1;
+}
+.blue{
+    position:absolute;
+    z-index: 2;
+    top: 2500px;
+    left: 200px;
+    opacity: 0.5;
+    pointer-events: none;
+}
+.box{
+    position:absolute;
+    width: 400px;
+	height: 200px;
+	background-color: white;
+     z-index: 2;
+    top: 2900px;
+    left: 200px;
+
+}
+
+.circle_e{
+    position: absolute;
+    top: 2130px;
+    left: 900px;
+    z-index: 1;
+    pointer-events: none;
+}
+.vid_e video{
+    position: relative;
+    width: 280px;
+    height: auto;
+    top: 230px;
+    left: 950px;
+    opacity: 0;
+    transition: opacity 5s;
+}
+.vid_e video:hover{
+    opacity: 1;
+}
+.purple{
+    position:absolute;
+    z-index: 2;
+    top: 2130px;
+    left: 900px;
+    opacity: 0.5;
+    pointer-events: none;
+}
