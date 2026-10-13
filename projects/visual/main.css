@@ -2,6 +2,11 @@ body{
     font-size: 100px;
     background-color: rgb(255, 255, 255);
 }
+
+audio{
+    position: absolute;
+    left:600px;
+}
 .circle_a{
     position: absolute;
     top: 80px;
@@ -152,3 +157,11 @@ body{
     opacity: 0.5;
     pointer-events: none;
 }
+
+p{
+    position: relative;
+    top: 1000px;
+    text-align: center;
+    font-size: small;
+}
+
