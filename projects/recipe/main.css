@@ -1,0 +1,21 @@
+body{
+    margin: 10px;
+    margin-top: 200px;
+    padding: 100px;
+    text-align: center;
+    background-color: blue;
+    font-family: "lores-12", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+h1{
+    color: aliceblue;
+}
+.content :hover{
+    font-size: 50px;
+}
