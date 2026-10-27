@@ -1,0 +1,113 @@
+/* I'm learning the "root" and "var" element from the original source https://nice.rocks/ and the website: https://www.w3schools.com/css/css3_variables.asp */
+:root {
+    --font-size-base: 20px;
+    --font-family: lores-12, sans-serif;
+
+    --text-color: #181716;
+
+    --bg-color: gainsboro;
+    --box-color:lightgray;
+    --hover-color:lime;
+    --hover-bg-color:whitesmoke;
+    --row1-bg-color:lime;
+    --row2-bg-color:yellow;
+    --row3-bg-color:cyan;
+    --row4-bg-color:magenta;
+    --row5-bg-color:orange;
+    --row6-bg-color:orangered;
+    --row7-bg-color:blue;
+    --row8-bg-color:mediumspringgreen;
+    
+    --padding: 55px 10px 2px 5px；
+    --width: 140px;
+    --height: 189px;
+
+
+    --gap: 8px;
+}
+body{
+    background-color: whitesmoke;
+}
+/* .container{
+    margin-top: 35px;
+} */
+
+.blocks {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: var(--gap);
+}
+.box{
+    box-sizing: border-box;
+    padding: 2.5px 5px 2px 5px;
+    width: 140px;
+    height: 189px;
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+}
+
+.box__row{
+    box-sizing: border-box;
+    padding: 55px 10px 2px 5px;
+    width: 140px;
+    height: 189px;
+    background-color:var(--box-color);
+    font-size: var(--font-size-base);
+    font-family: var(--font-family);
+}
+
+
+.box__row:hover{
+    background-color: var(--hover-bg-color);
+    color: var(--hover-color);
+}
+
+
+
+a{
+    text-decoration: none;
+    color: var(--row1-bg-color);
+}
+
+a:hover{
+    color: lime;
+}
+
+.row1{
+    background-color: var(--row1-bg-color);
+}
+
+.row2{
+    background-color: var(--row2-bg-color);
+    color:var(--row2-bg-color)
+}
+
+.row3{
+    background-color: var(--row3-bg-color);
+    color:var(--row3-bg-color)
+}
+
+.row4{
+    background-color: var(--row4-bg-color);
+    color:var(--row4-bg-color)
+}
+
+.row5{
+    background-color: var(--row5-bg-color);
+    color:var(--row5-bg-color)
+}
+
+.row6{
+    background-color: var(--row6-bg-color);
+    color:var(--row6-bg-color)
+}
+
+.row7{
+    background-color: var(--row7-bg-color);
+    color:var(--row7-bg-color)
+}
+
+.row8{
+    background-color: var(--row8-bg-color);
+    color:var(--row8-bg-color)
+}
