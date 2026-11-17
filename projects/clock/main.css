@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+}
+
+.wrapper img {
+    width: 250px;
+    height: auto;
+    animation-name: fishAnimation;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+
+.timercontainer{
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+    display: grid;
+    grid-template-columns: repeat(6,minmax(0,1fr));
+    grid-template-rows: repeat(4,minmax(0,1fr));
+    gap: 0;
+}
+
+.timer{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    grid-column: 3;
+    grid-row: 3;
+    /* https://www.w3schools.com/css/css3_object-fit.asp */
+    animation-name: timerAnimation;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    /* I also looked at w3 school for how to move img in css, and I looked at two stackoverflow's tutorial on how to make an img move because the tutorial on w3 school was specific to html box i think. 
+    Here's the w3 school website for animation tutorial I was looking at:
+    https://www.w3schools.com/css/css3_animations.asp
+    Here's the two stack Overflow website I was looking at: 
+    This is how i learn how to use translate property: https://stackoverflow.com/questions/27123399/how-to-move-an-image-up-and-down-smoothly-with-css 
+    I didn't get the infinite property on the last one so I look at this: https://stackoverflow.com/questions/25384314/how-do-i-loop-a-css-animation-with-multiple-keyframe-definitions */ 
+}
+
+@keyframes timerAnimation{
+    0%{transform: translate(0px,0px);}
+    25%{transform: translate(200px,200px);}
+    50%{transform: translate(-200px,-200px);}
+    100%{transform: translate(0px,0px);}
+}
+
+@keyframes fishAnimation{
+    0%{transform: translateX(0px);}
+    25%{transform: translate(200px);}
+    50%{transform: translate(-200px);}
+    100%{transform: translate(0px);}
+}
