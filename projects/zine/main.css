@@ -1,0 +1,102 @@
+body {
+    background-color:  ghostwhite;
+}
+
+.container{
+    display: contents;
+}
+
+section {
+    margin:20px;
+    padding-top: 18%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 50px;
+    justify-content: center;
+    align-items:  center;
+}
+
+.button {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:  black;
+    color:  ghostwhite;
+    font-size: 20px;
+    text-align:  center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:  all 100ms;
+}
+
+.button:hover {
+    background-color: gainsboro;
+    color:black;
+    cursor:  pointer;
+}
+
+.light {
+    background-color: papayawhip;
+}
+
+.textbox{
+    display: none;
+    color:black
+}
+.textboxOn{
+    display: block;
+}
+
+#apocalypse-text{
+    grid-column: 1;
+}
+
+#echoes-text{
+    grid-column: 2;
+}
+
+#where-text{
+    grid-column: 3;
+}
+
+#erlkonig-text{
+    grid-column: 4;
+}
+
+#last-text{
+    grid-column: 5;
+}
+
+.homepage{
+    display: grid;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:  black;
+    text-align:  center;
+    justify-items: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.homepage a{
+    text-decoration: none;
+    color:  ghostwhite;
+}
+
+.button{
+    animation: spin 20s linear infinite;
+
+}
+
+@keyframes spin{
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* view-source:https://www.w3schools.com/css/css3_animations.asp */
