@@ -1,6 +1,24 @@
 body {
     background-color:  ghostwhite;
 }
+.bg{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: -1;
+    animation-name: dustAnimation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.img{
+    object-fit: fill;
+}
+@keyframes dustAnimation {
+    0% {top:0px}
+    50% {top:25px}
+    100% {top:0px}
+}
 
 .container{
     display: contents;
